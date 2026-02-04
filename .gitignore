@@ -1,0 +1,34 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+database_nifti
+database_nifti/**
+# ---- DATA (never commit) ----
+data/
+*Cactus*
+PanEcho/
+*.nii.gz
+*.avi
+*.mp4
+*.csv
+*.zip
+
+# ---- Logs ----
+logs/
+
+# ---- Models / outputs ----
+results/
+outputs/
+weights/
+checkpoints/
+*.pt
+*.pth
+
+# ---- Environments ----
+venvs/
+torch-gpu/
+.env
